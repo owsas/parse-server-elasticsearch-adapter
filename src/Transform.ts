@@ -1,3 +1,7 @@
+/**
+ * TODO: research what is the object type for object, array or bytes
+ */
+
 export default class Transform {
   public static parseTypeToElasticSearchType(type) {
     switch (type.type) {
